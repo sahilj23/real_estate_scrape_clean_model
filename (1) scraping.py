@@ -7,7 +7,7 @@ Workflow:
   - Save checkpoints and final CSV
 
 Usage:
-  python scrape_magicbricks_listings.py
+  python scraping.py
 """
 
 import time, random, csv, os, json, math
@@ -289,4 +289,5 @@ def crawl_listings(max_pages=120, headless=HEADLESS, max_records=3200):
 
 
 if __name__ == "__main__":
+
     crawl_listings(max_records=3200, headless=False)
