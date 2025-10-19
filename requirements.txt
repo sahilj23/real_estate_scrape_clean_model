@@ -1,0 +1,9 @@
+fake-useragent
+selenium
+webdriver-manager
+beautifulsoup4
+pandas
+tqdm
+scikit-learn
+seaborn
+geopy
